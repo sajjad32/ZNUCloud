@@ -390,23 +390,31 @@ header .menu li {
 header .menu li:last-child {
   margin-right: 0;
 }
-header .menu li:before {
-  content: "";
-  position: absolute;
-  bottom: -12px;
-  left: 50%;
-  width: 24px;
-  height: 2px;
-  opacity: 0;
-  transition: 0.2s linear;
-  -ms-transform: translateX(-50%);
-      transform: translateX(-50%);
-  display: inline-block;
-  background-color: rgba(255, 255, 255, 0.2);
+/*header .menu li:after {*/
+  /*content: "";*/
+  /*position: absolute;*/
+  /*bottom: -12px;*/
+  /*left: 50%;*/
+  /*width: 24px;*/
+  /*height: 2px;*/
+  /*opacity: 0;*/
+  /*transition: 0.2s linear;*/
+  /*-ms-transform: translateX(-50%);*/
+      /*transform: translateX(-50%);*/
+  /*display: inline-block;*/
+  /*background-color: rgba(255, 255, 255, 0.2);*/
+/*}*/
+/*header .menu li:hover:after {*/
+  /*opacity: 1;*/
+/*}*/
+
+
+
+header .menu li:hover {
+  border-bottom: 2px solid #00ff00;
+  padding-bottom: 5px;
 }
-header .menu li:hover:before {
-  opacity: 1;
-}
+
 header .menu a {
   color: rgba(255, 255, 255, 0.9);
   font-size: 16px;
