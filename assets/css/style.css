@@ -314,7 +314,7 @@ input:-moz-placeholder {
 /* 03. Title Head
 ==================================== */
 .bg-gray {
-    background-color: #E8E8ED;
+    background-color: #fafafa;
 }
 .title-head {
     text-align: center;
@@ -584,11 +584,12 @@ Navigation File
 .custom-btn.green {
     border: none;
     padding: 15px 71px;
-    background: #0479ec linear-gradient(69deg, #37ddcb 0%, #42cbd1 80%, #42cbd1 100%);
+    background: #00BE66 linear-gradient(69deg, #29C37D 0%, #00BE66 80%, #00BE66 100%);
+    transition: 0.2s linear;
 }
 .custom-btn.green:hover {
     color: #fff;
-    background-image: linear-gradient(69deg, rgba(55, 221, 203, 0.9) 0%, rgba(66, 203, 209, 0.9) 80%, rgba(66, 203, 209, 0.9) 100%);
+    background: #04b161;
 }
 .custom-btn.blue {
     color: #0479ec;
@@ -653,7 +654,7 @@ Navigation File
     text-align: center;
     padding-bottom: 47px;
     margin-bottom: 65px;
-    border-bottom: 2px solid rgba(219, 234, 248, 0.6);
+    border-bottom: 2px solid rgb(118, 182, 241, 0.3);
 }
 .partner h5 {
     font-size: 15px;
@@ -692,9 +693,10 @@ Navigation File
 .why-choose .inside {
     padding: 70px 39px 38px 39px;
     text-align: center;
-    box-shadow: 1px 1px 22px rgba(157, 184, 209, 0.19);
-    border-radius: 7px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    border-radius: .1875rem;
     background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
 }
 .why-choose .inside a {
     color: #051a40;
@@ -1238,7 +1240,7 @@ Navigation File
 .base-slider {
     padding-bottom: 10px;
     position: relative;
-    background-color: #E8E8ED;
+    background-color: #fafafa;
 }
 .base-slider h2 {
     font-size: 50px;
@@ -1368,6 +1370,7 @@ footer {
     display: inline-block;
     padding: 31px 0 35px;
     border-top: 2px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
 }
 .copyright p {
     font-size: 14px;
