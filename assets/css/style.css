@@ -547,6 +547,89 @@ header .button-header .custom-btn.signup:hover {
     background: transparent;
     border-color: #00BE66;
 }
+#slides {
+    position: relative;
+}
+#slides .slides-container {
+    display: none;
+}
+#slides .slides-container img {
+    /*-webkit-filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);*/
+    /*filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);*/
+}
+.slides-navigation {
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 46%;
+    width: 100%;
+}
+.slides-navigation a {
+    position: absolute;
+    display: block;
+}
+.slides-navigation a.prev {
+    left: 0;
+    padding: 13px 16px;
+    background: #565656;
+    opacity: 0.3;
+    border-radius: 24px;
+    margin-left: 20px;
+    color: #fff;
+    transition: 0.2s linear;
+}
+.slides-navigation a.prev i {
+    right: 2px;
+    position: relative;
+}
+.slides-navigation a.prev:hover {
+    opacity: 1;
+}
+.slides-navigation a.next {
+    right: 0;
+    padding: 13px 16px;
+    background: #565656;
+    opacity: 0.5;
+    border-radius: 24px;
+    margin-right: 20px;
+    color: #fff;
+    transition: 0.2s linear;
+}
+.slides-navigation a.next i {
+    right: -2px;
+    position: relative;
+}
+.slides-navigation a.next:hover {
+    opacity: 1;
+}
+.slides-pagination {
+    position: absolute;
+    z-index: 3;
+    bottom: 15px;
+    text-align: center;
+    width: 100%;
+    right: 0.3rem;
+}
+.slides-pagination a {
+    border: 2px solid #00BE66;
+    border-radius: 15px;
+    width: 13px;
+    height: 13px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=");
+    margin: 2px;
+    overflow: hidden;
+    text-indent: -100%;
+}
+.slides-pagination a.current {
+    background: #00BE66;
+}
+
 /*=====  End of 03. Header Style  ======*/
 /*=========================================
 =            04. Elements Less            =
@@ -1237,12 +1320,10 @@ Navigation File
 ========================================*/
 /* 01. Base Slider
 ==================================== */
-.base-slider {
-    padding-bottom: 10px;
-    position: relative;
+.slide {
     background-color: #fafafa;
 }
-.base-slider h2 {
+.slide h2 {
     font-size: 50px;
     color: #fff;
     letter-spacing: 2px;
@@ -1250,18 +1331,18 @@ Navigation File
     text-transform: capitalize;
     font-family: "HelveticaNeueLight", serif;
 }
-.base-slider p {
+.slide p {
     color: #c0dbf4;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
-.base-slider p,
-.base-slider a {
+.slide p,
+.slide a {
     font-family: "HelveticaNeue-Medium", serif;
 }
-.base-slider .custom-btn {
+.slide .custom-btn {
     font-size: 14px;
     color: #051A40;
     padding: 14px 33px;
@@ -1273,26 +1354,31 @@ Navigation File
     display: inline-block;
     font-weight: bold;
 }
-.base-slider .custom-btn:hover {
+.slide .custom-btn:hover {
     -ms-transform: scale(1.09);
     transform: scale(1.09);
     box-shadow: 1px 1px 11px rgb(1, 0, 16);
 }
-.base-slider .inside {
+.slide img{
     width: 100%;
-    top: 48%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    position: absolute;
-    text-align: center;
 }
-.base-slider .owl-prev i,
-.base-slider .owl-next i {
-    color: #fff;
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #00BE66 !important;
 }
-.base-slider img{
-    width: 100%;
+.fp-controlArrow.fp-next {
+    right: 30px !important;
+    border-width: 15px 0px 15px 17px !important;
+    opacity: 0.2;
+    transition: 0.2s linear;
+}
+.fp-controlArrow.fp-prev {
+    left: 30px !important;
+    border-width: 15px 17px 15px 0 !important;
+    opacity: 0.2;
+    transition: 0.2s linear;
+}
+.fp-controlArrow.fp-next:hover, .fp-controlArrow.fp-prev:hover {
+    opacity: 1;
 }
 /*=====  End of 05. Slider Style  ======*/
 /*==================================

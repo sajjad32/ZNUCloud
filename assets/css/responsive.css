@@ -76,6 +76,9 @@
   header .button-header .custom-btn {
     width: 91px;
   }
+  .custom-btn.signup {
+    padding: 8px 11px !important;
+  }
   header .menu li {
     margin-right: 16px;
   }
@@ -218,7 +221,7 @@
   header.transparent {
     padding: 0;
     height: 58px;
-    background-color: #0479ec;
+    background-color: #0c0a3e;
   }
   header .button-header .custom-btn {
     width: 96px;
@@ -477,7 +480,7 @@
   }
   .base-slider .custom-btn {
     font-size: 12px;
-    padding: 11px 22px;
+    /*padding: 11px 22px;*/
   }
   .base-slider .inside {
     width: 100%;
@@ -778,7 +781,7 @@
 	=            Index.html            =
 	==================================*/
   .base-slider {
-    padding-top: 55px;
+    /*padding-top: 55px;*/
   }
   .base-slider .owl-prev,
   .base-slider .owl-next {
