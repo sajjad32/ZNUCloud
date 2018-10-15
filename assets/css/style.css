@@ -320,7 +320,7 @@ input:-moz-placeholder {
     text-align: center;
     font-size: 32px;
     color: #051a40;
-    margin-bottom: 60px;
+    margin: 75px 0 25px;
     letter-spacing: 3px;
 }
 .animatedParent {
@@ -379,6 +379,14 @@ header.transparent {
     position: absolute;
     margin-bottom: 0;
     background-color: transparent;
+    transition: 0.2s;
+}
+header.transparent.hasBackground {
+    background-color: #0f2959 !important;
+}
+header.otherPages {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 }
 header.transparent .logo-mobile {
     top: 10px;
@@ -537,6 +545,13 @@ header .button-header .custom-btn.login {
 header .button-header .custom-btn.login:hover {
     color: #fff;
     background-color: #0b2452;
+}
+header.hasBackground .button-header .custom-btn.login {
+    background: #dce0e7 !important;
+    color: #0f2959;
+}
+header.hasBackground .button-header .custom-btn.login:hover {
+    background: #b6bac1 !important;
 }
 header .button-header .custom-btn.signup {
     border: 2px solid transparent;
@@ -878,14 +893,14 @@ Navigation File
 /* 06. Pricing Table
 ==================================== */
 .pricing-table {
-    padding: 80px 0 30px 0;
+    padding: 0 0 30px 0;
     background: url(../images/bg-blue2.png) no-repeat center;
     background-size: cover;
     margin-bottom: 130px;
 }
 .pricing-table .title-head {
     color: #fff;
-    margin-bottom: 8px;
+    margin-bottom: 25px;
 }
 .pricing-table p {
     text-align: center;

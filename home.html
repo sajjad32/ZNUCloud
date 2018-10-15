@@ -6,19 +6,21 @@
     <title>EngineHosting</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.5">
     <!-- Framework Css -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.6/jquery.fullPage.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/lib/bootstrap.min.css">
     <!-- Font Awesome / Icon Fonts -->
     <link rel="stylesheet" type="text/css" href="assets/css/lib/font-awesome.min.css">
     <!-- Owl Carousel / Carousel- Slider -->
     <link rel="stylesheet" type="text/css" href="assets/css/lib/owl.carousel.min.css">
     <!-- Animations -->
-    <link rel="stylesheet" type="text/css" href="assets/css/lib/animations.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
     <!-- Style Theme -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Responsive Theme -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <!-- Full page Css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/lib/fullpage.css">
 	 </head>
 <body>
     <div class="wrapper">
@@ -115,25 +117,13 @@
             <!--===================== Base Slider ========================-->
 
             <!--===================== End of Base Slider ========================-->
-            <div class="bg-gray section">
+            <div class="bg-gray section" id="services">
                 <div class="container">
-                    <!--===================== Partner ========================-->
-                    <!--<div class="partner animatedParent">-->
-                        <!--<h5>Trusted by 150,000+ happy customers worldwide</h5>-->
-                        <!--<div class="partner-slider owl-carousel owl-theme">-->
-                            <!--<div class="item animated bounceInLeft delay-250"><a href="#"><img src="assets/images/brand1.png" alt="partner"></a></div>-->
-                            <!--<div class="item animated bounceInLeft delay-500"><a href="#"><img src="assets/images/brand2.png" alt="partner"></a></div>-->
-                            <!--<div class="item animated bounceInLeft delay-750"><a href="#"><img src="assets/images/brand3.png" alt="partner"></a></div>-->
-                            <!--<div class="item animated bounceInLeft delay-1000"><a href="#"><img src="assets/images/brand4.png" alt="partner"></a></div>-->
-                            <!--<div class="item animated bounceInLeft delay-1250"><a href="#"><img src="assets/images/brand5.png" alt="partner"></a></div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--===================== End of Partner ========================-->
                     <!--===================== Why Choose ========================-->
                     <div class="why-choose animatedParent">
                         <h2 class="title-head">Why you should choose us</h2>
                         <div class="row">
-                            <div class="col-md-4 col-xs-12 animated bounceInUp delay-250">
+                            <div class="col-md-4 col-xs-12 delay-250">
                                 <div class="inside">
                                     <img src="assets/images/optimised.svg" alt="optimised">
                                     <a href="https://enginehosting-html.fruitfulcode.com/blog-list">Totaly Optimised</a>
@@ -141,7 +131,7 @@
                                     <a href="https://enginehosting-html.fruitfulcode.com/blog-list" class="read-more">Learn More <img src="assets/images/right.png" alt="right"></a>
                                 </div><!--inside-->
                             </div>
-                            <div class="col-md-4 col-xs-12 animated bounceInUp delay-500">
+                            <div class="col-md-4 col-xs-12 delay-500">
                                 <div class="inside">
                                     <img src="assets/images/powerfull.svg" alt="powerfull">
                                     <a href="https://enginehosting-html.fruitfulcode.com/blog-list">Powerful Features</a>
@@ -149,7 +139,7 @@
                                     <a href="https://enginehosting-html.fruitfulcode.com/blog-list" class="read-more">Learn More <img src="assets/images/right.png" alt="right"></a>
                                 </div><!--inside-->
                             </div>
-                            <div class="col-md-4 col-xs-12 animated bounceInUp delay-750">
+                            <div class="col-md-4 col-xs-12 delay-750">
                                 <div class="inside">
                                     <img src="assets/images/website.svg" alt="website">
                                     <a href="https://enginehosting-html.fruitfulcode.com/blog-list">Worldwide Support</a>
@@ -160,6 +150,18 @@
                         </div>
                     </div>
                     <!--===================== End of Why Choose ========================-->
+                    <!--===================== Partner ========================-->
+                    <!--<div class="partner animatedParent">-->
+                    <!--<h5>Trusted by 150,000+ happy customers worldwide</h5>-->
+                    <!--<div class="partner-slider owl-carousel owl-theme">-->
+                    <!--<div class="item animated bounceInLeft delay-250"><a href="#"><img src="assets/images/brand1.png" alt="partner"></a></div>-->
+                    <!--<div class="item animated bounceInLeft delay-500"><a href="#"><img src="assets/images/brand2.png" alt="partner"></a></div>-->
+                    <!--<div class="item animated bounceInLeft delay-750"><a href="#"><img src="assets/images/brand3.png" alt="partner"></a></div>-->
+                    <!--<div class="item animated bounceInLeft delay-1000"><a href="#"><img src="assets/images/brand4.png" alt="partner"></a></div>-->
+                    <!--<div class="item animated bounceInLeft delay-1250"><a href="#"><img src="assets/images/brand5.png" alt="partner"></a></div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--===================== End of Partner ========================-->
                     <!--===================== Hosting Software ========================-->
                     <!--<div class="hosting-software">-->
                         <!--<h2 class="title-head">Powerful Hosting Software</h2>-->
@@ -174,12 +176,11 @@
                 </div>
             </div>
             <!--===================== Pricing Table ========================-->
-            <div class="pricing-table animatedParent section">
+            <div class="pricing-table section" id="pricing-table">
                 <div class="container">
                     <h2 class="title-head">Linux Reseller Hosting</h2>
-                    <p>High Performance cPanel WHM Reseller Hosting in Europe</p>
                     <ul class="pricing-list">
-                        <li class="animated bounceInLeft delay-250">
+                        <li class="delay-250">
                             <div class="images"><img src="assets/images/server.svg" alt="server"></div>
                             <h5>Dedicated Server</h5>
                             <p>There are many variations of passages of Lorem Ipsum available.</p>
@@ -187,7 +188,7 @@
                             <div class="price">80$<span>/month</span></div>
                             <a href="https://enginehosting-html.fruitfulcode.com/service-page" class="custom-btn">Get Started Now</a>
                         </li>
-                        <li class="animated bounceInLeft delay-500">
+                        <li class="delay-500">
                             <div class="images"><img src="assets/images/hosting.svg" alt="hosting"></div>
                             <h5>Reseller Hosting</h5>
                             <p>There are many variations of passages of Lorem Ipsum available.</p>
@@ -195,7 +196,7 @@
                             <div class="price">160$<span>/month</span></div>
                             <a href="https://enginehosting-html.fruitfulcode.com/service-page" class="custom-btn">Get Started Now</a>
                         </li>
-                        <li class="animated bounceInLeft delay-750">
+                        <li class="delay-750">
                             <div class="images"><img src="assets/images/hosting2.svg" alt="hosting2"></div>
                             <h5>Shared Hosting</h5>
                             <p>There are many variations of passages of Lorem Ipsum available.</p>
@@ -351,17 +352,51 @@
         <!--===================== End of Footer ========================-->
     </div><!--wrapper-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.6/jquery.fullPage.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="assets/js/lib/bootstrap.min.js"></script>
-    <script src="assets/js/lib/fullpage.js" type="text/javascript" charset="utf-8"></script>
-    <script src="assets/js/lib/css3-animate-it.js"></script>
     <script src="assets/js/lib/counter.js"></script>
     <script src="assets/js/lib/owl.carousel.min.js"></script>
+
+    <!--<script src="assets/js/lib/css3-animate-it.js"></script>-->
     <script src="assets/js/main.js"></script>
     <script type="text/javascript">
-        new fullpage('#fullpage', {
+        $('#fullpage').fullpage({
             licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
             slidesNavigation: true,
             scrollHorizontally: true,
+            onLeave: function(index, nextIndex, direction) {
+                var $Services1 = $('#services .delay-250'),
+                    $Services2 = $('#services .delay-500'),
+                    $Services3 = $('#services .delay-750');
+                var $Price1 = $('#pricing-table .delay-250'),
+                    $Price2 = $('#pricing-table .delay-500'),
+                    $Price3 = $('#pricing-table .delay-750');
+                var $header = $('header');
+                if( index === 1 && direction === 'down' ) {
+                    $header.addClass('hasBackground otherPages');
+                    $Services1.addClass('animated bounceInUp');
+                    $Services1.css('animation-delay', '.25s');
+                    $Services2.addClass('animated bounceInUp');
+                    $Services2.css('animation-delay', '.5s');
+                    $Services3.addClass('animated bounceInUp');
+                    $Services3.css('animation-delay', '.75s');
+                }
+                // if( index === 2 && direction === 'down' ) {
+                //     $header.removeClass('hasBackground');
+                //     $header.css('transition-delay','0.25s');
+                //     $Price1.addClass('animated bounceInLeft');
+                //     $Price1.css('animation-delay', '.25s');
+                //     $Price2.addClass('animated bounceInLeft');
+                //     $Price2.css('animation-delay', '.5s');
+                //     $Price3.addClass('animated bounceInLeft');
+                //     $Price3.css('animation-delay', '.75s');
+                // }
+                if( index === 2 && direction === 'up' ) {
+                    $header.removeClass('hasBackground otherPages');
+                    $header.css('transition-delay','0.25s');
+                }
+
+            }
         });
     </script>
    
