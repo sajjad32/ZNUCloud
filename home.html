@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>EngineHosting</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.5">
+    <!--Full Page Css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/lib/jquery.fullpage.css">
     <!-- Framework Css -->
     <link rel="stylesheet" type="text/css" href="assets/css/lib/bootstrap.min.css">
     <!-- Font Awesome / Icon Fonts -->
@@ -12,14 +14,16 @@
     <!-- Owl Carousel / Carousel- Slider -->
     <link rel="stylesheet" type="text/css" href="assets/css/lib/owl.carousel.min.css">
     <!-- Animations -->
-    <link rel="stylesheet" type="text/css" href="assets/css/lib/animations.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/lib/animate.min.css">
     <!-- Style Theme -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Responsive Theme -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <!-- Full page Css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/lib/fullpage.css">
-	 </head>
+    <style>
+
+    </style>
+</head>
 <body>
     <div class="wrapper">
         <!--===================== Header ========================-->
@@ -30,20 +34,20 @@
                         <div class="logo"><a href="https://enginehosting-html.fruitfulcode.com"><img src="assets/images/logo.svg" alt="logo"></a></div>
                     </div>
                     <div class="col-md-7">
-                        <ul class="menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Our services</a></li>
-                            <li><a href="#">Uses</a></li>
-                            <li><a href="#">Photos</a></li>
-                            <li><a href="#">News</a></li>
-                            <li class="children">
-                                <a href="">Pages</a>
-                                <ul class="sub-menu">
-                                    <li><a href="https://enginehosting-html.fruitfulcode.com/error-page">404 Page</a></li>
-                                    <li><a href="https://enginehosting-html.fruitfulcode.com/order">Order</a></li>
-                                    <li><a href="https://enginehosting-html.fruitfulcode.com/user-interface">User Interface</a></li>
-                                </ul>
-                            </li>
+                        <ul class="menu" id="menu">
+                            <li><a data-menuanchor="1stPage" href="#1stPage">Home</a></li>
+                            <li><a data-menuanchor="2ndPage" href="#2ndPage">Our services</a></li>
+                            <li><a data-menuanchor="3rdPage" href="#3rdPage">Uses</a></li>
+                            <li><a data-menuanchor="4thPage" href="#4thPage">Photos</a></li>
+                            <li><a data-menuanchor="5thPage" href="#5thPage">News</a></li>
+                            <!--<li class="children">-->
+                                <!--<a href="">Pages</a>-->
+                                <!--<ul class="sub-menu">-->
+                                    <!--<li><a href="https://enginehosting-html.fruitfulcode.com/error-page">404 Page</a></li>-->
+                                    <!--<li><a href="https://enginehosting-html.fruitfulcode.com/order">Order</a></li>-->
+                                    <!--<li><a href="https://enginehosting-html.fruitfulcode.com/user-interface">User Interface</a></li>-->
+                                <!--</ul>-->
+                            <!--</li>-->
                         </ul>
                     </div>
                     <div class="col-md-3">
@@ -94,8 +98,6 @@
             </div>
         </header>
         <!--===================== End of Header ========================-->
-
-
         <div id="fullpage">
             <!--===================== Background Slider ========================-->
             <div class="section" style="text-align: center;">
@@ -112,28 +114,13 @@
                 </div>
             </div>
             <!--===================== End of Background Slider ========================-->
-            <!--===================== Base Slider ========================-->
-
-            <!--===================== End of Base Slider ========================-->
-            <div class="bg-gray section">
+            <div class="bg-gray section" id="services">
                 <div class="container">
-                    <!--===================== Partner ========================-->
-                    <!--<div class="partner animatedParent">-->
-                        <!--<h5>Trusted by 150,000+ happy customers worldwide</h5>-->
-                        <!--<div class="partner-slider owl-carousel owl-theme">-->
-                            <!--<div class="item animated bounceInLeft delay-250"><a href="#"><img src="assets/images/brand1.png" alt="partner"></a></div>-->
-                            <!--<div class="item animated bounceInLeft delay-500"><a href="#"><img src="assets/images/brand2.png" alt="partner"></a></div>-->
-                            <!--<div class="item animated bounceInLeft delay-750"><a href="#"><img src="assets/images/brand3.png" alt="partner"></a></div>-->
-                            <!--<div class="item animated bounceInLeft delay-1000"><a href="#"><img src="assets/images/brand4.png" alt="partner"></a></div>-->
-                            <!--<div class="item animated bounceInLeft delay-1250"><a href="#"><img src="assets/images/brand5.png" alt="partner"></a></div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--===================== End of Partner ========================-->
                     <!--===================== Why Choose ========================-->
-                    <div class="why-choose animatedParent">
+                    <div class="why-choose">
                         <h2 class="title-head">Why you should choose us</h2>
                         <div class="row">
-                            <div class="col-md-4 col-xs-12 animated bounceInUp delay-250">
+                            <div class="col-md-4 col-xs-12 delay-250">
                                 <div class="inside">
                                     <img src="assets/images/optimised.svg" alt="optimised">
                                     <a href="https://enginehosting-html.fruitfulcode.com/blog-list">Totaly Optimised</a>
@@ -141,7 +128,7 @@
                                     <a href="https://enginehosting-html.fruitfulcode.com/blog-list" class="read-more">Learn More <img src="assets/images/right.png" alt="right"></a>
                                 </div><!--inside-->
                             </div>
-                            <div class="col-md-4 col-xs-12 animated bounceInUp delay-500">
+                            <div class="col-md-4 col-xs-12 delay-500">
                                 <div class="inside">
                                     <img src="assets/images/powerfull.svg" alt="powerfull">
                                     <a href="https://enginehosting-html.fruitfulcode.com/blog-list">Powerful Features</a>
@@ -149,7 +136,7 @@
                                     <a href="https://enginehosting-html.fruitfulcode.com/blog-list" class="read-more">Learn More <img src="assets/images/right.png" alt="right"></a>
                                 </div><!--inside-->
                             </div>
-                            <div class="col-md-4 col-xs-12 animated bounceInUp delay-750">
+                            <div class="col-md-4 col-xs-12 delay-750">
                                 <div class="inside">
                                     <img src="assets/images/website.svg" alt="website">
                                     <a href="https://enginehosting-html.fruitfulcode.com/blog-list">Worldwide Support</a>
@@ -160,6 +147,18 @@
                         </div>
                     </div>
                     <!--===================== End of Why Choose ========================-->
+                    <!--===================== Partner ========================-->
+                    <!--<div class="partner animatedParent">-->
+                    <!--<h5>Trusted by 150,000+ happy customers worldwide</h5>-->
+                    <!--<div class="partner-slider owl-carousel owl-theme">-->
+                    <!--<div class="item animated bounceInLeft delay-250"><a href="#"><img src="assets/images/brand1.png" alt="partner"></a></div>-->
+                    <!--<div class="item animated bounceInLeft delay-500"><a href="#"><img src="assets/images/brand2.png" alt="partner"></a></div>-->
+                    <!--<div class="item animated bounceInLeft delay-750"><a href="#"><img src="assets/images/brand3.png" alt="partner"></a></div>-->
+                    <!--<div class="item animated bounceInLeft delay-1000"><a href="#"><img src="assets/images/brand4.png" alt="partner"></a></div>-->
+                    <!--<div class="item animated bounceInLeft delay-1250"><a href="#"><img src="assets/images/brand5.png" alt="partner"></a></div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--===================== End of Partner ========================-->
                     <!--===================== Hosting Software ========================-->
                     <!--<div class="hosting-software">-->
                         <!--<h2 class="title-head">Powerful Hosting Software</h2>-->
@@ -174,12 +173,11 @@
                 </div>
             </div>
             <!--===================== Pricing Table ========================-->
-            <div class="pricing-table animatedParent section">
+            <div class="pricing-table section" id="pricing-table">
                 <div class="container">
                     <h2 class="title-head">Linux Reseller Hosting</h2>
-                    <p>High Performance cPanel WHM Reseller Hosting in Europe</p>
                     <ul class="pricing-list">
-                        <li class="animated bounceInLeft delay-250">
+                        <li class="delay-250">
                             <div class="images"><img src="assets/images/server.svg" alt="server"></div>
                             <h5>Dedicated Server</h5>
                             <p>There are many variations of passages of Lorem Ipsum available.</p>
@@ -187,7 +185,7 @@
                             <div class="price">80$<span>/month</span></div>
                             <a href="https://enginehosting-html.fruitfulcode.com/service-page" class="custom-btn">Get Started Now</a>
                         </li>
-                        <li class="animated bounceInLeft delay-500">
+                        <li class="delay-500">
                             <div class="images"><img src="assets/images/hosting.svg" alt="hosting"></div>
                             <h5>Reseller Hosting</h5>
                             <p>There are many variations of passages of Lorem Ipsum available.</p>
@@ -195,7 +193,7 @@
                             <div class="price">160$<span>/month</span></div>
                             <a href="https://enginehosting-html.fruitfulcode.com/service-page" class="custom-btn">Get Started Now</a>
                         </li>
-                        <li class="animated bounceInLeft delay-750">
+                        <li class="delay-750">
                             <div class="images"><img src="assets/images/hosting2.svg" alt="hosting2"></div>
                             <h5>Shared Hosting</h5>
                             <p>There are many variations of passages of Lorem Ipsum available.</p>
@@ -203,7 +201,7 @@
                             <div class="price">9$<span>/month</span></div>
                             <a href="https://enginehosting-html.fruitfulcode.com/service-page" class="custom-btn">Get Started Now</a>
                         </li>
-                        <li class="animated bounceInLeft delay-1000">
+                        <li class="delay-1000">
                             <div class="images"><img src="assets/images/vps.svg" alt="vpn"></div>
                             <h5>VPS Hosting</h5>
                             <p>There are many variations of passages of Lorem Ipsum available.</p>
@@ -273,95 +271,164 @@
                 </div>
             </div>
             <!--===================== End of User Slider ========================-->
-            <div class="pre-footer"><img src="assets/images/line-prefoter.png" alt="bg-prefooter"></div>
+
             <!--===================== Search Domain ========================-->
-            <div class="search-domain animatedParent">
-                <div class="container animated fadeInUpShort">
-                    <div class="row">
-                        <div class="col-md-4 col-xs-12">
-                            <h3>Search Your Domain</h3>
-                        </div>
-                        <div class="col-md-8 col-xs-12">
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" placeholder="Domain Name">
-                                    <select>
-                                        <option value=".com">.com</option>
-                                        <option value=".ua">.ua</option>
-                                        <option value=".nu">.nu</option>
-                                    </select>
-                                </div>
-                                <button class="custom-btn green">Search</button>
-                            </form>
-                        </div>
+
+            <!--===================== End of Search Domain ========================-->
+            <!--===================== Footer ========================-->
+                <!--<div class="search-domain" id="search-domain">-->
+                    <!--<div class="pre-footer"><img src="assets/images/line-prefoter.png" alt="bg-prefooter"></div>-->
+                    <!--<div class="search-container">-->
+                        <!--<div class="container">-->
+                            <!--<div class="row">-->
+                                <!--<div class="col-md-4 col-xs-12">-->
+                                    <!--<h3>Search Your Domain</h3>-->
+                                <!--</div>-->
+                                <!--<div class="col-md-8 col-xs-12">-->
+                                    <!--<form>-->
+                                        <!--<div class="form-group">-->
+                                            <!--<input type="text" placeholder="Domain Name">-->
+                                            <!--<div class="select">-->
+                                                <!--<select class="select-hidden">-->
+                                                    <!--<option value=".com">.com</option>-->
+                                                    <!--<option value=".ua">.ua</option>-->
+                                                    <!--<option value=".nu">.nu</option>-->
+                                                <!--</select>-->
+                                                <!--<div class="select-styled">.com</div>-->
+                                                <!--<ul class="select-options" style="display: none;">-->
+                                                    <!--<li rel=".com">.com</li>-->
+                                                    <!--<li rel=".ua">.ua</li>-->
+                                                    <!--<li rel=".nu">.nu</li>-->
+                                                <!--</ul>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                        <!--<button class="custom-btn green">Search</button>-->
+                                    <!--</form>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <div class="section fp-auto-height">
+                <footer style="background-color: #0C0A3E">
+                    <div class="container">
+                        <div class="widget-footer">
+                            <h4>Product</h4>
+                            <ul>
+                            <li><a href="https://enginehosting-html.fruitfulcode.com/service-page">Web Hosting</a></li>
+                            <li><a href="https://enginehosting-html.fruitfulcode.com/service-page">Shared Hosting</a></li>
+                            <li><a href="https://enginehosting-html.fruitfulcode.com/service-page">Dedicated Server</a></li>
+                            <li><a href="https://enginehosting-html.fruitfulcode.com/service-page">Private Cloud</a></li>
+                            </ul>
+                        </div><!--widget-footer-->
+                        <div class="widget-footer">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="https://enginehosting-html.fruitfulcode.com/about">About Us</a></li>
+                                <li><a href="https://enginehosting-html.fruitfulcode.com/service-page">Careers</a></li>
+                                <li><a href="https://enginehosting-html.fruitfulcode.com/blog-list">Blog</a></li>
+                                <li><a href="https://enginehosting-html.fruitfulcode.com/contact">Contact</a></li>
+                            </ul>
+                        </div><!--widget-footer-->
+                        <div class="widget-footer">
+                            <h4>Support</h4>
+                            <ul>
+                                <li><a href="service-page.html">FAQ</a></li>
+                                <li><a href="https://enginehosting-html.fruitfulcode.com/contact">Contact Us</a></li>
+                            </ul>
+                        </div><!--widget-footer-->
+                        <div class="widget-footer">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li><a href="#">+123-333-123</a></li>
+                                <li><a href="#">support@enginehosting.com</a></li>
+                            </ul>
+                        </div><!--widget-footer-->
+                        <div class="widget-footer last">
+                            <a href="https://enginehosting-html.fruitfulcode.com"><img src="assets/images/logo.svg" alt="logo"></a>
+                            <p>There are many variations of passages of Lorem Ipsum </p>
+                            <ul class="social-icon">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            </ul>
+                        </div><!--widget-footer-->
+                        <div class="copyright">
+                            <p>&copy; Copyright 2017 Hosting, All Rights Reserved</p>
+                        </div><!--copyright-->
                     </div>
-                </div>
+                </footer>
             </div>
         </div>
-        <!--===================== End of Search Domain ========================-->
-        <!--===================== Footer ========================-->
-        <footer>
-            <div class="container section">
-                <div class="widget-footer">
-                    <h4>Product</h4>
-                    <ul>
-                    <li><a href="https://enginehosting-html.fruitfulcode.com/service-page">Web Hosting</a></li>
-                    <li><a href="https://enginehosting-html.fruitfulcode.com/service-page">Shared Hosting</a></li>
-                    <li><a href="https://enginehosting-html.fruitfulcode.com/service-page">Dedicated Server</a></li>
-                    <li><a href="https://enginehosting-html.fruitfulcode.com/service-page">Private Cloud</a></li>
-                    </ul>
-                </div><!--widget-footer-->
-                <div class="widget-footer">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="https://enginehosting-html.fruitfulcode.com/about">About Us</a></li>
-                        <li><a href="https://enginehosting-html.fruitfulcode.com/service-page">Careers</a></li>
-                        <li><a href="https://enginehosting-html.fruitfulcode.com/blog-list">Blog</a></li>
-                        <li><a href="https://enginehosting-html.fruitfulcode.com/contact">Contact</a></li>
-                    </ul>
-                </div><!--widget-footer-->
-                <div class="widget-footer">
-                    <h4>Support</h4>
-                    <ul>
-                        <li><a href="service-page.html">FAQ</a></li>
-                        <li><a href="https://enginehosting-html.fruitfulcode.com/contact">Contact Us</a></li>
-                    </ul>
-                </div><!--widget-footer-->
-                <div class="widget-footer">
-                    <h4>Contact Us</h4>
-                    <ul>
-                        <li><a href="#">+123-333-123</a></li>
-                        <li><a href="#">support@enginehosting.com</a></li>
-                    </ul>
-                </div><!--widget-footer-->
-                <div class="widget-footer last">
-                    <a href="https://enginehosting-html.fruitfulcode.com"><img src="assets/images/logo.svg" alt="logo"></a>
-                    <p>There are many variations of passages of Lorem Ipsum </p>
-                    <ul class="social-icon">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                    </ul>
-                </div><!--widget-footer-->
-                <div class="copyright">
-                    <p>&copy; Copyright 2017 Hosting, All Rights Reserved</p>
-                </div><!--copyright-->
-            </div>
-        </footer>
         <!--===================== End of Footer ========================-->
     </div><!--wrapper-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="assets/js/lib/bootstrap.min.js"></script>
-    <script src="assets/js/lib/fullpage.js" type="text/javascript" charset="utf-8"></script>
-    <script src="assets/js/lib/css3-animate-it.js"></script>
     <script src="assets/js/lib/counter.js"></script>
     <script src="assets/js/lib/owl.carousel.min.js"></script>
+    <script src="assets/js/lib/jquery.fullpage.js" type="text/javascript" charset="utf-8"></script>
+
     <script src="assets/js/main.js"></script>
     <script type="text/javascript">
-        new fullpage('#fullpage', {
+        $('#fullpage').fullpage({
             licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
             slidesNavigation: true,
             scrollHorizontally: true,
+            // navigation: true,
+            anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage', '5thPage'],
+            menu: '#menu',
+            onLeave: function(index, nextIndex, direction) {
+                var $Services1 = $('#services .delay-250'),
+                    $Services2 = $('#services .delay-500'),
+                    $Services3 = $('#services .delay-750');
+                var $Price1 = $('#pricing-table .delay-250'),
+                    $Price2 = $('#pricing-table .delay-500'),
+                    $Price3 = $('#pricing-table .delay-750'),
+                    $Price4 = $('#pricing-table .delay-1000');
+                var $Search = $('#search-domain .container');
+                var $header = $('header');
+                if( index === 1 && direction === 'down' ) {
+                    $header.addClass('hasBackground otherPages');
+                    $header.css('transition-delay','0s');
+                    $Services1.addClass('animated bounceInUp');
+                    $Services1.css('animation-delay', '.25s');
+                    $Services2.addClass('animated bounceInUp');
+                    $Services2.css('animation-delay', '.5s');
+                    $Services3.addClass('animated bounceInUp');
+                    $Services3.css('animation-delay', '.75s');
+                }
+                if( index === 2 && direction === 'up' ) {
+                    $header.removeClass('hasBackground otherPages');
+                    $header.css('transition-delay','0.25s');
+                }
+                if( index === 2 && direction === 'down' ) {
+                    $header.removeClass('hasBackground');
+                    $header.css('transition-delay','0.25s');
+                    $Price1.addClass('animated bounceInLeft');
+                    $Price1.css('animation-delay', '.25s');
+                    $Price2.addClass('animated bounceInLeft');
+                    $Price2.css('animation-delay', '.5s');
+                    $Price3.addClass('animated bounceInLeft');
+                    $Price3.css('animation-delay', '.75s');
+                    $Price4.addClass('animated bounceInLeft');
+                    $Price4.css('animation-delay', '1s');
+                }
+                if( index === 3 && direction === 'up' ) {
+                    $header.addClass('hasBackground otherPages');
+                }
+                if( index === 3 && direction === 'down' ) {
+                    $header.addClass('hasBackground otherPages');
+                    $header.css('transition-delay','0.25s');
+                }
+                if( index === 4 && direction === 'up' ) {
+                    $header.removeClass('hasBackground');
+                    $header.css('transition-delay','0.25s');
+                }
+                if( index === 4 && direction === 'down' ) {
+                    $Search.addClass('animated fadeInUp');
+                    $Search.css('animation-delay', '0.25s');
+                }
+            }
         });
     </script>
    

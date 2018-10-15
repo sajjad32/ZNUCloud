@@ -473,4 +473,4 @@ $(document.body).on('appear', '.animatedParent', function(e, $affected){
 
  $(window).on('load',function(){
   $.force_appear();
- });
+ })(jQuery);
