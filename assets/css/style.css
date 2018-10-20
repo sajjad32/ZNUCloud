@@ -754,7 +754,7 @@ Navigation File
     text-align: center;
     padding-bottom: 47px;
     margin-bottom: 65px;
-    border-bottom: 2px solid rgb(118, 182, 241, 0.3);
+    /*border-bottom: 2px solid rgb(118, 182, 241, 0.3);*/
 }
 .partner h5 {
     font-size: 15px;
