@@ -17,7 +17,7 @@
     <session id="-303919765">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.29" value="1" />
@@ -61,7 +61,7 @@
     <session id="-674372641">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="2" />
@@ -269,29 +269,17 @@
       <workItem from="1538982905008" duration="13635000" />
       <workItem from="1539066635732" duration="15438000" />
       <workItem from="1539258082502" duration="7461000" />
-<<<<<<< HEAD
-      <workItem from="1539320552053" duration="15961000" />
-=======
       <workItem from="1539320552053" duration="15362000" />
       <workItem from="1539497529817" duration="47000" />
-      <workItem from="1539497592204" duration="8956000" />
->>>>>>> b0f45d8b59d7b557530a9add4afa0cb67e0ecd99
+      <workItem from="1539497592204" duration="9556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="52495000" />
+    <option name="totallyTimeSpent" value="61499000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-=======
-    <option name="totallyTimeSpent" value="60899000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
->>>>>>> b0f45d8b59d7b557530a9add4afa0cb67e0ecd99
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1301059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
