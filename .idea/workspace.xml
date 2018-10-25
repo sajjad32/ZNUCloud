@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512b1e51-248c-4982-91db-b3825df8bc35" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BYekan/Yekan.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BYekan/Yekan.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BYekan/Yekan.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BYekan/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/BYekan/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/right.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,34 +68,37 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="255" />
-          <entry key="html" value="421" />
+          <entry key="css" value="434" />
+          <entry key="html" value="1307" />
           <entry key="js" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="255" />
-          <entry key="HTML" value="421" />
+          <entry key="CSS" value="434" />
+          <entry key="HTML" value="1307" />
           <entry key="JavaScript" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
+          <entry key="css" value="5" />
+          <entry key="html" value="1" />
           <entry key="js" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="1" />
           <entry key="JavaScript" value="5" />
         </counts>
       </usages-collector>
@@ -98,11 +106,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="299" column="29" lean-forward="true" selection-start-line="299" selection-start-column="29" selection-end-line="299" selection-end-column="29" />
+            <state relative-caret-position="429">
+              <caret line="189" column="79" lean-forward="true" selection-start-line="189" selection-start-column="79" selection-end-line="189" selection-end-column="79" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -111,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="361" column="24" selection-start-line="361" selection-start-column="18" selection-end-line="361" selection-end-column="24" />
+            <state relative-caret-position="362">
+              <caret line="1007" column="21" selection-start-line="1007" selection-start-column="21" selection-end-line="1007" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -133,21 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>login</find>
-      <find>.login</find>
-      <find>Dashboard</find>
-      <find>}.</find>
-      <find>bg-pink-300</find>
-      <find>.inside</find>
-      <find>.partner</find>
-      <find>line-prefoter</find>
-      <find>#00BE66 linear-gradient(69deg, #29C37D 0%, #00BE66 80%, #00BE66 100%)</find>
-      <find>bg-test</find>
-      <find>only screen and (max-width: 991px)</find>
-      <find />
-      <find>base-sli</find>
-      <find>delay-250</find>
-      <find>inside</find>
       <find>base-slider</find>
       <find>only screen and (max-width: 480px)</find>
       <find>partner-slider</find>
@@ -157,18 +150,34 @@
       <find>window_top</find>
       <find>header.transparent</find>
       <find>header</find>
-      <find>.title-head</find>
       <find>header .button-header .custom-btn.login</find>
       <find>hasBackground</find>
       <find>.pricing-table</find>
       <find>.pricing-table .title-head</find>
       <find>@font</find>
+      <find>font-family</find>
+      <find>font-family: &quot;</find>
+      <find>body {</find>
+      <find>.slide p,</find>
+      <find>.title-head</find>
+      <find>.why-choose .inside a.read-more</find>
+      <find>a.read-more</find>
+      <find>.why-choose .inside a</find>
+      <find>.widget-footer h4</find>
+      <find>.social-icon i</find>
+      <find>.pricing-list li h5</find>
+      <find>.pricing-list li &gt; span b</find>
+      <find>logo</find>
+      <find>.pricing-list li .price</find>
+      <find>logo.png</find>
+      <find>.pricing-list li .price span</find>
     </findStrings>
     <replaceStrings>
       <replace>}./n</replace>
       <replace>}.</replace>
       <replace>} .</replace>
       <replace>slide</replace>
+      <replace>font-family: &quot;iraniansans&quot;;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -211,6 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,7 +243,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,17 +283,18 @@
       <workItem from="1539497592204" duration="9556000" />
       <workItem from="1540288970315" duration="115000" />
       <workItem from="1540289107105" duration="6984000" />
+      <workItem from="1540450449859" duration="8917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68598000" />
+    <option name="totallyTimeSpent" value="77515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13313162" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -375,21 +385,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="1007" column="21" selection-start-line="1007" selection-start-column="21" selection-end-line="1007" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="299" column="29" lean-forward="true" selection-start-line="299" selection-start-column="29" selection-end-line="299" selection-end-column="29" />
+        <state relative-caret-position="429">
+          <caret line="189" column="79" lean-forward="true" selection-start-line="189" selection-start-column="79" selection-end-line="189" selection-end-column="79" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="361" column="24" selection-start-line="361" selection-start-column="18" selection-end-line="361" selection-end-column="24" />
         </state>
       </provider>
     </entry>
