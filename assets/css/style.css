@@ -358,6 +358,14 @@ input:-moz-placeholder {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "BYekan";
+    src: url(../fonts/BYekan/Yekan.eot);
+    src: url(../fonts/BYekan/Yekan.eot?#iefix) format("embedded-opentype"), url(../fonts/BYekan/Yekan.woff)
+    format("woff"), url(../fonts/BYekan/Yekan.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
 /*=====  End of 03. Base Style  ======*/
 /*========================================
 =            03. Header Style            =
